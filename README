@@ -1,0 +1,20 @@
+Programa que captura os dados de propostas de lei do Site da camara Legislativa. Protegido sob licença GPLv3.
+
+Escrito para python v2.7.3, em sistema GNU/Linux(Ubuntu 12.10)
+
+Uso:
+python Captura [-c][-i][-a "ano"][-t "tipo"]
+
+Modos:
+	-Sem argumentos
+  Modo automático, captura e armazena todos os arquivos em uma base de dados
+	-c
+  Apenas captura os arquivos html do site da camara e os armazena em uma base de dados sqlite
+  	-i
+  Interpreta arquivos baixados com o modo (-c)
+  	-a "ano"
+  Pega apenas informações do ano especificado
+  	-t "tipo"
+  Pega apenas informações do tipo especificado. Há uma lista de tipos possíveis no final deste documento:
+
+
