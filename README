@@ -2,6 +2,10 @@ Captura os projetos de lei que tramitam pela câmara legislativa federal. Proteg
 
 Escrito para python v2.7.3, em sistema GNU/Linux(Ubuntu 12.10)
 
+Requer os seguintes módulos, que NÃO estão inclusos na distribuição
+* urllib2
+* sqlite3
+
 Uso:
 python Captura [-c][-i][-a "ano"][-t "tipo"]
 
